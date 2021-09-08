@@ -2,31 +2,31 @@ import requests
 from twilio.rest import Client
 
 #Add the company symbol
-STOCK = "TSLA"
+STOCK = "xxxx"
 
 #Add the company name to get the news articles
-COMPANY_NAME = "Tesla"
+COMPANY_NAME = "xxxx"
 
 #API to get the stock information
 URL = "https://www.alphavantage.co/query"
 
 #Get a unique API key from Alpha Vantage
-STOCK_API_KEY = "ZM6LUUAG0K1DWG39"
+STOCK_API_KEY = "xxxxxxxxxxxxx"
 
 #Get a unique API key from NewsApi
-NEWS_API_KEY = "3d15742d082f4f3f8c0b0baa629589db"
+NEWS_API_KEY = "xxxxxxxxxxxxxxxxxxxxxx"
 
 #Get a unique Account_SID from Twilio
-ACCOUNT_SID = "AC44da8db19ff2f3f344df16dfe22beb09"
+ACCOUNT_SID = "xxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 #Get a unique Auth_Token from Twilio
-AUTH_TOKEN = "72916990d537f3356cefa394c567be26"
+AUTH_TOKEN = "xxxxxxxxxxxxxxxxxxxxx"
 
 #Add your Twilio account SMS number. Use the format "+" and then the full phone number including country code with no dashes or paranthesis (Example: +15555555555).
-TWILIO_NUMBER = "+19794818786"
+TWILIO_NUMBER = "+15555555555"
 
 #Add your phone number. Use the format "+" and then the full phone number including country code with no dashes or paranthesis (Example: +15555555555)
-INVESTOR_NUMBER = "+18575236065"
+INVESTOR_NUMBER = "+15555555555"
 
 parameters = {
     'function': "TIME_SERIES_DAILY",
